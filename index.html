@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+      <title>HTML Login Form</title>
+      <link rel="stylesheet" href="index.css">
+      <script type="module" src="index.js" defer></script>
+</head>
+
+<body>
+      <div class="main">
+            <h1>LOG-IN</h1>
+            
+            <form action="">
+                  <label for="first">
+                        Email:
+                  </label>
+                  <input type="text" 
+                         id="first" 
+                         name="first" 
+                         placeholder="name@gmail.com" required>
+
+                  <label for="password">
+                        Password:
+                  </label>
+                  <input type="password"
+                         id="password" 
+                         name="password"
+                         placeholder="Password" required>
+
+                  <div class="wrap" style="display: flex; ">
+                        <button type="submit" id="submit"
+                                onclick="solve()">
+                              LOG-IN as student
+                        </button>
+                        <button type="submit" id="submit"
+                                onclick="solve()">
+                              LOG-IN as Teacher
+                        </button>
+                        <button type="submit" id="submit"
+                                onclick="solve()">
+                              LOG-IN as Admin
+                        </button>
+                  </div>
+            </form>
+            <p>Not registered?
+                  <a href="regis.html"
+                     style="text-decoration: none;">
+                        Create an account
+                  </a>
+            </p>
+      </div>
+</body>
+
+</html>
